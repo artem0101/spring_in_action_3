@@ -12,12 +12,12 @@
     </bean>
 
     <bean id="quest"
-          class="SlayDragonQuest" />
+          class="quests.SlayDragonQuest" />
 
     <bean id="minstrel"
-          class="Minstrel" /> <!--<co id="co_minstrel_bean"/>-->
+          class="minstrel.Minstrel" /> <!--<co id="co_minstrel_bean"/>-->
 
-    <aop:config>
+  <aop:config>
         <aop:aspect ref="minstrel">
 
             <aop:pointcut id="embark"

@@ -1,7 +1,7 @@
-package knight;
+package knights;
 
 import exception.QuestException;
-import quest.RescueDamselQuest;
+import quests.RescueDamselQuest;
 
 public class DamselRescuingKnight implements Knight {
     private RescueDamselQuest quest;

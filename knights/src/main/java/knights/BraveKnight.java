@@ -1,7 +1,7 @@
-package knight;
+package knights;
 
 import exception.QuestException;
-import quest.Quest;
+import quests.Quest;
 
 public class BraveKnight implements Knight {
     private Quest quest;
@@ -14,5 +14,4 @@ public class BraveKnight implements Knight {
     public void embarkOnQuest() throws QuestException {
         quest.embark();
     }
-
 }

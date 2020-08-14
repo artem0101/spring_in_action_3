@@ -1,7 +1,8 @@
 import exception.QuestException;
-import knight.BraveKnight;
+import knights.BraveKnight;
 import org.junit.Test;
-import quest.Quest;
+import quests.Quest;
+
 import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.verify;
 import static org.mockito.Mockito.times;

@@ -1,4 +1,4 @@
-package quest;
+package quests;
 
 import exception.QuestException;
 
